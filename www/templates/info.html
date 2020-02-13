@@ -1,0 +1,33 @@
+<ion-modal-view>
+	
+	<ion-header-bar>
+		<h1 class="title">Profil</h1>
+		<div class="buttons">
+			<buttons class="button button-assertive button-clear" ng-click="home.closeModal()">Retour</buttons>
+		</div>
+	</ion-header-bar>
+
+	<ion-content>
+			<div class="card">
+				<span ng-repeat="image in home.info.images | limitTo:4">
+					<img ng-src="{{image.source}}" width="140px" height="140px">
+				</span>
+			</div>
+
+			<div class="card">
+				<div class="item item-avatar">
+					<img ng-src="{{home.info.avatar}}">
+					<h2>{{home.info.first_name}} ({{home.info.age}} ans)</h2>
+					<p>{{home.info.location}}</p>
+				</div>
+
+				<div class="item item-divider">
+					<h2>Description...</h2>
+					<ion-item class="item-text-wrap">
+						{{home.info.bio}}
+					</ion-item>
+				</div>
+			</div>
+	</ion-content>
+
+</ion-modal-view>

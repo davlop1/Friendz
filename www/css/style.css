@@ -1,0 +1,155 @@
+/* Empty. Add your own CSS if you like */
+
+.bar-stable.bar.bar-header .title {
+	color: #DB4C2C;
+	font-size: 20px;
+}
+
+.bar-stable.bar.bar-header .button.button-icon.button-clear.ion-navicon {
+	color: #DB4C2C;
+}
+
+.item-menu.item.item-complex .item-content {
+	background-color: #FFF;
+	color: #DB4C2C;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+
+.item-menu.item.item-complex {
+	border: none !important;
+}
+
+.menu.menu-left {
+	width: 100%;
+	background-color: #FFF;
+}
+
+.icon-menu.icon {
+	font-size: 25px;
+	margin-right: 10px;
+	border: 2px solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 50%;
+}
+
+.landing {
+	background: url(../img/home.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.facebook {
+	max-width: 225px;
+	margin: 0 auto;
+}
+
+.facebook-button {
+	position: absolute;
+	top: 425px;
+}
+
+.big {
+	font-size: 20px;
+}
+
+td-cards {
+ display: block;
+}
+
+td-card {
+  position: absolute;
+  left: 50%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-left: -150px;
+  width: 300px;
+  height: 300px;
+
+  border: 1px solid #999;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
+
+td-card .image {
+  width: 100%;
+}
+
+td-card img {
+  height: 300px;	
+  width: 100%;
+  border-radius: 6px;
+}
+
+.yes-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  color: rgb(111, 250, 111);
+  opacity: 0;
+}
+.no-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: rgb(255, 115, 115);
+  opacity: 0;
+}
+
+.fade {
+  -webkit-transition: 0.2s opacity linear;
+  transition: 0.2s opacity linear;
+  opacity: 0;
+}
+
+.overlayBox {
+  position: absolute;
+  left: 50%;
+  height: 98%;
+  width: 100%;
+  top: -80px;
+  opacity: 0;
+  margin: 80px 0 0 -149px;
+}
+
+.boxed {
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 30px;
+}
+
+.yes-text {
+  background-color: rgba(0,256,0,0.2);
+}
+
+.yesBox {
+  margin: 10% 60% 0% 10%;
+  border: 2px solid #00FF00;
+  color: rgb(0, 256, 0);
+  -webkit-transform: rotate(-25deg);
+}
+
+.no-text {
+  background-color: rgba(256,0,0,0.2);
+}
+
+.noBox {
+  margin: 10% 10% 0% 60%;
+  border: 2px solid #FF0000;
+  color: rgb(256, 0, 0);
+  -webkit-transform: rotate(25deg);
+}
+
+.spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: #fff;
+  fill: #fff;
+}
